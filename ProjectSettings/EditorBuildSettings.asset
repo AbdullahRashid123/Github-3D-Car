@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/awakeScene.unity
+    guid: 69160dfbc3e10454fac39b45a5c98850
   m_configObjects: {}
