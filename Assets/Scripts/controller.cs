@@ -57,7 +57,7 @@ public class controller : MonoBehaviour
 
     private void Awake() {
 
-        if(SceneManager.GetActiveScene().name == "Main")return;
+        if(SceneManager.GetActiveScene().name == "awakeScene")return;
         getObjects();
         StartCoroutine(timedLoop());
 
@@ -65,7 +65,7 @@ public class controller : MonoBehaviour
 
     private void Update() {
 
-        if(SceneManager.GetActiveScene().name == "Main")return;
+        if(SceneManager.GetActiveScene().name == "awakeScene")return;
 
         horizontal = IM.horizontal;
         vertical = IM.vertical;

@@ -11,7 +11,7 @@ public class inputManager : MonoBehaviour {
 
     // AI components
 
-    //private trackWaypoints waypoints;
+    private trackWaypoints waypoints;
     private Transform currentWaypoint;
     private List<Transform> nodes = new List<Transform> ();
     private int distanceOffset = 5;
@@ -22,9 +22,9 @@ public class inputManager : MonoBehaviour {
 
 
     private void Start() {
-        //waypoints = GameObject.FindGameObjectWithTag("path").GetComponent<trackWaypoints>();
+        waypoints = GameObject.FindGameObjectWithTag("path").GetComponent<trackWaypoints>();
         currentWaypoint = gameObject.transform;
-     //   nodes = waypoints.nodes;
+        nodes = waypoints.nodes;
         
         //print(gameObject.name + "offset distance " + distanceOffset + "steer force = " + sterrForce + "acc " + acceleration);
     }
