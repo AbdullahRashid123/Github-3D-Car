@@ -940,9 +940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 189f2ab782d97ed45961e9a4c10c6478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linecolor: {r: 0, g: 0, b: 0, a: 0}
-  SphereRadius: 0
-  nodes: []
 --- !u!1 &302105391
 GameObject:
   m_ObjectHideFlags: 0
