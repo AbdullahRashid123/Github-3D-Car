@@ -354,14 +354,17 @@ public class controller : MonoBehaviour
             nitrusValue -= (nitrusValue <= 0 ) ? 0 : Time.deltaTime;
         }
 
-        if (IM.boosting){
-            if (nitrusValue > 0) { 
+        if (IM.boosting)
+        {
+            if (nitrusValue > 0)
+            {
                 CarEffects.startNitrusEmitter();
                 rigidbody.AddForce(transform.forward * 5000);
-            } 
+            }
             else CarEffects.stopNitrusEmitter();
         }
         else CarEffects.stopNitrusEmitter();
+        
 
     }
 

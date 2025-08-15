@@ -5687,6 +5687,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1696235231782742171, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
+      propertyPath: vehicles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696235231782742171, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
+      propertyPath: vehicles.Array.data[3]
+      value: 
+      objectReference: {fileID: 2962088815592287996, guid: 717d1be84fab366489408807858fcb9d, type: 3}
     - target: {fileID: 7781139230394201889, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
       propertyPath: m_Name
       value: vehicleList
