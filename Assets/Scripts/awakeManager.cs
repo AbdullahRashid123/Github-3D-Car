@@ -170,7 +170,7 @@ else
     }
 
     public void loadMarioMap(){
-        SceneManager.LoadScene("superMarioMap");
+        SceneManager.LoadScene("Super Race");
     }
     
     public void loadComunityMap(){

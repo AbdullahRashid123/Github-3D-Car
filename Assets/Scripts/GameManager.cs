@@ -179,6 +179,6 @@ public class GameManager : MonoBehaviour {
     }
 
     public void loadAwakeScene(){
-        SceneManager.LoadScene("awakeScene");
+        SceneManager.LoadScene("Main");
     }
 }
