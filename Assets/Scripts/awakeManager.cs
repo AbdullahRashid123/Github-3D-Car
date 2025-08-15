@@ -47,10 +47,23 @@ public class awakeManager : MonoBehaviour
         upgradesCurrency.text = "$" + PlayerPrefs.GetInt("currency").ToString();
 
 
-        vehiclePointer = PlayerPrefs.GetInt("pointer");
-        GameObject childObject = Instantiate(listOfVehicles.vehicles[vehiclePointer],Vector3.zero,toRotate.transform.rotation) as GameObject;
-        childObject.transform.parent = toRotate.transform;
-        getCarInfo();
+        if (vehiclePointer >= 0 && vehiclePointer < listOfVehicles.vehicles.Length)
+{
+    // Instantiate the vehicle if within bounds
+    GameObject childObject = Instantiate(listOfVehicles.vehicles[vehiclePointer], Vector3.zero, toRotate.transform.rotation) as GameObject;
+    childObject.transform.parent = toRotate.transform;
+    getCarInfo();
+}
+else
+{
+    // Handle the error case, for example, use the first vehicle or log an error
+    Debug.LogError("Invalid vehiclePointer value: " + vehiclePointer + ". Using default vehicle.");
+    
+    // Optionally, instantiate the first vehicle as a fallback
+    GameObject childObject = Instantiate(listOfVehicles.vehicles[0], Vector3.zero, toRotate.transform.rotation) as GameObject;
+    childObject.transform.parent = toRotate.transform;
+    getCarInfo();
+}
 
     }
 

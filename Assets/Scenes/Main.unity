@@ -940,6 +940,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 189f2ab782d97ed45961e9a4c10c6478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  linecolor: {r: 0, g: 0, b: 0, a: 0}
+  SphereRadius: 0
+  nodes: []
 --- !u!1 &302105391
 GameObject:
   m_ObjectHideFlags: 0
@@ -8267,6 +8270,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1696235231782742171, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
+      propertyPath: vehicles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696235231782742171, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
+      propertyPath: vehicles.Array.data[4]
+      value: 
+      objectReference: {fileID: 2962088815592287996, guid: 717d1be84fab366489408807858fcb9d, type: 3}
     - target: {fileID: 7781139230394201889, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
       propertyPath: m_Name
       value: VehicleList
@@ -8381,30 +8392,6 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7786233397972518158}
   m_Enabled: 1
---- !u!114 &7786233397972518153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7786233397972518158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7786233397972518154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7786233397972518158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &7786233397972518155
 Transform:
   m_ObjectHideFlags: 0
@@ -8491,8 +8478,6 @@ GameObject:
   - component: {fileID: 7786233397972518156}
   - component: {fileID: 7786233397972518152}
   - component: {fileID: 7786233397972518157}
-  - component: {fileID: 7786233397972518154}
-  - component: {fileID: 7786233397972518153}
   - component: {fileID: 7786233397972518159}
   m_Layer: 8
   m_Name: Camera
