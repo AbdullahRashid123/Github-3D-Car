@@ -8272,7 +8272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1696235231782742171, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
       propertyPath: vehicles.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1696235231782742171, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
       propertyPath: vehicles.Array.data[4]

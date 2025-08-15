@@ -6945,7 +6945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerRef: {fileID: 2962088815592287997}
   engineUpgrade: 1
-  I_engineUpgrade: 4
+  I_engineUpgrade: 0
   P_engineUpgrade: 0000000000000000000000000000000000000000
   spoilerUpgrade: 1
   I_spoilerUpgrade: 1
@@ -6959,7 +6959,7 @@ MonoBehaviour:
   P_nitrusUpgrade: 00000000f3e00100f3e00100
   car: {fileID: 4975652847170142413}
   colorUpgrade: 1
-  I_colorUpgrade: 2
+  I_colorUpgrade: 0
   L_colorUpgrade:
   - {fileID: 2100000, guid: eaf10aac96b5b534d951fc1d3d2fa08e, type: 2}
   - {fileID: 2100000, guid: fc127e09bf6a2a242b1accb8594f701d, type: 2}
@@ -8474,7 +8474,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 95a400d1a5fb7ac4fbf20adb8c2b04a5, type: 2}
+  - {fileID: 2100000, guid: eaf10aac96b5b534d951fc1d3d2fa08e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
